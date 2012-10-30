@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31919C2D162DCDE200A4411E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31919C2C162DCDE200A4411E /* UIKit.framework */; };
+		31919C2F162DCDE200A4411E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31919C2E162DCDE200A4411E /* Foundation.framework */; };
+		31919C31162DCDE200A4411E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31919C30162DCDE200A4411E /* CoreGraphics.framework */; };
+		31919C37162DCDE200A4411E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31919C35162DCDE200A4411E /* InfoPlist.strings */; };
+		31919C39162DCDE200A4411E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C38162DCDE200A4411E /* main.m */; };
+		31919C3D162DCDE200A4411E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C3C162DCDE200A4411E /* AppDelegate.m */; };
+		31919C3F162DCDE200A4411E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31919C3E162DCDE200A4411E /* Default.png */; };
+		31919C41162DCDE200A4411E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31919C40162DCDE200A4411E /* Default@2x.png */; };
+		31919C43162DCDE200A4411E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31919C42162DCDE200A4411E /* Default-568h@2x.png */; };
+		31919C53162DCE3A00A4411E /* THStackableContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C4E162DCE3A00A4411E /* THStackableContainerView.m */; };
+		31919C54162DCE3A00A4411E /* THStackableContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C50162DCE3A00A4411E /* THStackableContainerViewController.m */; };
+		31919C55162DCE3A00A4411E /* THStackableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C52162DCE3A00A4411E /* THStackableViewController.m */; };
+		31919C60162DD2EE00A4411E /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31919C5F162DD2EE00A4411E /* RootView.xib */; };
+		31919C66162DF01100A4411E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31919C65162DF01100A4411E /* QuartzCore.framework */; };
+		31919C6D162DF5AA00A4411E /* DemoRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C6C162DF5AA00A4411E /* DemoRootViewController.m */; };
+		31919C6F162DF7F000A4411E /* DemoStackableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31919C6E162DF7F000A4411E /* DemoStackableView.xib */; };
+		31919C72162DF90B00A4411E /* DemoStackableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31919C71162DF90B00A4411E /* DemoStackableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31919C28162DCDE200A4411E /* THSlideViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THSlideViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31919C2C162DCDE200A4411E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31919C2E162DCDE200A4411E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31919C30162DCDE200A4411E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31919C34162DCDE200A4411E /* THSlideViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THSlideViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		31919C36162DCDE200A4411E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31919C38162DCDE200A4411E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31919C3A162DCDE200A4411E /* THSlideViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THSlideViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		31919C3B162DCDE200A4411E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31919C3C162DCDE200A4411E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31919C3E162DCDE200A4411E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		31919C40162DCDE200A4411E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		31919C42162DCDE200A4411E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		31919C4D162DCE3A00A4411E /* THStackableContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THStackableContainerView.h; path = Classes/THStackableContainerView.h; sourceTree = "<group>"; };
+		31919C4E162DCE3A00A4411E /* THStackableContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THStackableContainerView.m; path = Classes/THStackableContainerView.m; sourceTree = "<group>"; };
+		31919C4F162DCE3A00A4411E /* THStackableContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THStackableContainerViewController.h; path = Classes/THStackableContainerViewController.h; sourceTree = "<group>"; };
+		31919C50162DCE3A00A4411E /* THStackableContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THStackableContainerViewController.m; path = Classes/THStackableContainerViewController.m; sourceTree = "<group>"; };
+		31919C51162DCE3A00A4411E /* THStackableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THStackableViewController.h; path = Classes/THStackableViewController.h; sourceTree = "<group>"; };
+		31919C52162DCE3A00A4411E /* THStackableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THStackableViewController.m; path = Classes/THStackableViewController.m; sourceTree = "<group>"; };
+		31919C5F162DD2EE00A4411E /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootView.xib; path = Classes/RootView.xib; sourceTree = "<group>"; };
+		31919C65162DF01100A4411E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		31919C6B162DF5AA00A4411E /* DemoRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoRootViewController.h; path = Classes/DemoRootViewController.h; sourceTree = "<group>"; };
+		31919C6C162DF5AA00A4411E /* DemoRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoRootViewController.m; path = Classes/DemoRootViewController.m; sourceTree = "<group>"; };
+		31919C6E162DF7F000A4411E /* DemoStackableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoStackableView.xib; sourceTree = "<group>"; };
+		31919C70162DF90B00A4411E /* DemoStackableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoStackableViewController.h; path = Classes/DemoStackableViewController.h; sourceTree = "<group>"; };
+		31919C71162DF90B00A4411E /* DemoStackableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoStackableViewController.m; path = Classes/DemoStackableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31919C25162DCDE200A4411E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31919C66162DF01100A4411E /* QuartzCore.framework in Frameworks */,
+				31919C2D162DCDE200A4411E /* UIKit.framework in Frameworks */,
+				31919C2F162DCDE200A4411E /* Foundation.framework in Frameworks */,
+				31919C31162DCDE200A4411E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31919C1D162DCDE200A4411E = {
+			isa = PBXGroup;
+			children = (
+				31919C32162DCDE200A4411E /* THSlideViewControllerDemo */,
+				31919C2B162DCDE200A4411E /* Frameworks */,
+				31919C29162DCDE200A4411E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31919C29162DCDE200A4411E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31919C28162DCDE200A4411E /* THSlideViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31919C2B162DCDE200A4411E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31919C65162DF01100A4411E /* QuartzCore.framework */,
+				31919C2C162DCDE200A4411E /* UIKit.framework */,
+				31919C2E162DCDE200A4411E /* Foundation.framework */,
+				31919C30162DCDE200A4411E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31919C32162DCDE200A4411E /* THSlideViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31919C3B162DCDE200A4411E /* AppDelegate.h */,
+				31919C3C162DCDE200A4411E /* AppDelegate.m */,
+				31919C6B162DF5AA00A4411E /* DemoRootViewController.h */,
+				31919C6C162DF5AA00A4411E /* DemoRootViewController.m */,
+				31919C70162DF90B00A4411E /* DemoStackableViewController.h */,
+				31919C71162DF90B00A4411E /* DemoStackableViewController.m */,
+				31919C5F162DD2EE00A4411E /* RootView.xib */,
+				31919C6E162DF7F000A4411E /* DemoStackableView.xib */,
+				31919C56162DD0D800A4411E /* THStackableViewController */,
+				31919C33162DCDE200A4411E /* Supporting Files */,
+			);
+			path = THSlideViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		31919C33162DCDE200A4411E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31919C34162DCDE200A4411E /* THSlideViewControllerDemo-Info.plist */,
+				31919C35162DCDE200A4411E /* InfoPlist.strings */,
+				31919C38162DCDE200A4411E /* main.m */,
+				31919C3A162DCDE200A4411E /* THSlideViewControllerDemo-Prefix.pch */,
+				31919C3E162DCDE200A4411E /* Default.png */,
+				31919C40162DCDE200A4411E /* Default@2x.png */,
+				31919C42162DCDE200A4411E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31919C56162DD0D800A4411E /* THStackableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31919C4D162DCE3A00A4411E /* THStackableContainerView.h */,
+				31919C4E162DCE3A00A4411E /* THStackableContainerView.m */,
+				31919C4F162DCE3A00A4411E /* THStackableContainerViewController.h */,
+				31919C50162DCE3A00A4411E /* THStackableContainerViewController.m */,
+				31919C57162DD0F200A4411E /* Main Parent Class */,
+			);
+			name = THStackableViewController;
+			sourceTree = "<group>";
+		};
+		31919C57162DD0F200A4411E /* Main Parent Class */ = {
+			isa = PBXGroup;
+			children = (
+				31919C51162DCE3A00A4411E /* THStackableViewController.h */,
+				31919C52162DCE3A00A4411E /* THStackableViewController.m */,
+			);
+			name = "Main Parent Class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31919C27162DCDE200A4411E /* THSlideViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31919C46162DCDE200A4411E /* Build configuration list for PBXNativeTarget "THSlideViewControllerDemo" */;
+			buildPhases = (
+				31919C24162DCDE200A4411E /* Sources */,
+				31919C25162DCDE200A4411E /* Frameworks */,
+				31919C26162DCDE200A4411E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THSlideViewControllerDemo;
+			productName = THSlideViewControllerDemo;
+			productReference = 31919C28162DCDE200A4411E /* THSlideViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31919C1F162DCDE200A4411E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Thomas Hanks";
+			};
+			buildConfigurationList = 31919C22162DCDE200A4411E /* Build configuration list for PBXProject "THSlideViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31919C1D162DCDE200A4411E;
+			productRefGroup = 31919C29162DCDE200A4411E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31919C27162DCDE200A4411E /* THSlideViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31919C26162DCDE200A4411E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31919C37162DCDE200A4411E /* InfoPlist.strings in Resources */,
+				31919C3F162DCDE200A4411E /* Default.png in Resources */,
+				31919C41162DCDE200A4411E /* Default@2x.png in Resources */,
+				31919C43162DCDE200A4411E /* Default-568h@2x.png in Resources */,
+				31919C60162DD2EE00A4411E /* RootView.xib in Resources */,
+				31919C6F162DF7F000A4411E /* DemoStackableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31919C24162DCDE200A4411E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31919C39162DCDE200A4411E /* main.m in Sources */,
+				31919C3D162DCDE200A4411E /* AppDelegate.m in Sources */,
+				31919C53162DCE3A00A4411E /* THStackableContainerView.m in Sources */,
+				31919C54162DCE3A00A4411E /* THStackableContainerViewController.m in Sources */,
+				31919C55162DCE3A00A4411E /* THStackableViewController.m in Sources */,
+				31919C6D162DF5AA00A4411E /* DemoRootViewController.m in Sources */,
+				31919C72162DF90B00A4411E /* DemoStackableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31919C35162DCDE200A4411E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31919C36162DCDE200A4411E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31919C44162DCDE200A4411E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		31919C45162DCDE200A4411E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31919C47162DCDE200A4411E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THSlideViewControllerDemo/THSlideViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "THSlideViewControllerDemo/THSlideViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31919C48162DCDE200A4411E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THSlideViewControllerDemo/THSlideViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "THSlideViewControllerDemo/THSlideViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31919C22162DCDE200A4411E /* Build configuration list for PBXProject "THSlideViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31919C44162DCDE200A4411E /* Debug */,
+				31919C45162DCDE200A4411E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31919C46162DCDE200A4411E /* Build configuration list for PBXNativeTarget "THSlideViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31919C47162DCDE200A4411E /* Debug */,
+				31919C48162DCDE200A4411E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31919C1F162DCDE200A4411E /* Project object */;
+}
